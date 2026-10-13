@@ -1,0 +1,20 @@
+# GenAI Learning Configuration
+
+document:
+  file_type: "pdf"
+
+chunking:
+  chunk_size: 400
+  chunk_overlap: 100
+
+embeddings:
+  provider: "openai"
+  model: "text-embedding-3-small"
+
+retrieval:
+  similarity_metric: "cosine"
+  top_k: 3
+
+llm:
+  provider: "openai"
+  model: "gpt-5"
