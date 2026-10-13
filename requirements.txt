@@ -1,0 +1,7 @@
+openai
+pypdf
+langchain
+langchain-text-splitters
+numpy
+pandas
+python-dotenv
